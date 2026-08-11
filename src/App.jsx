@@ -50,7 +50,7 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <main className="app">
       <h1>Desserts</h1>
       <ProductList
         cart={cart}
@@ -66,7 +66,7 @@ function App() {
       {orderConfirmed && (
         <OrderModal cart={cart} onStartNewOrder={startNewOrder} />
       )}
-    </div>
+    </main>
   )
 }
 

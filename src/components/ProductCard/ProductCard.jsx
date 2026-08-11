@@ -33,7 +33,7 @@ function ProductCard({ product, quantity, onAddToCart, onIncrease, onDecrease })
       )}
 
       <p className="product-category">{product.category}</p>
-      <h3 className="product-name">{product.name}</h3>
+      <h2 className="product-name">{product.name}</h2>
       <p className="product-price">${product.price.toFixed(2)}</p>
     </div>
   );
